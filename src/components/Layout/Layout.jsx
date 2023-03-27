@@ -1,6 +1,11 @@
+import Navbar from "../Navbar";
+
 function Layout(){
     return (
-        <p>layout</p>
+        <>
+            <p>layout</p>
+            <Navbar/>
+        </>
     )
 }
 
