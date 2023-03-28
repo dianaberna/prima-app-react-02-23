@@ -1,7 +1,9 @@
 import Figlio from "../Figlio/Figlio";
 
 function Genitore() {
+
     let a = 5
+
     return (
         <>
             <p>sono il Genitore</p>

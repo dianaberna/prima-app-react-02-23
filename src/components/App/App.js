@@ -1,6 +1,7 @@
 // import Layout from '../Layout/Layout';
 import Genitore from "../Genitore/Genitore";
 import Layout from "../Layout";
+import StampaArray from "../StampaArray";
 // import NomeComponente from "percorso dove si trova il file NomeComponente.jsx"
 import "./App.css";
 import { ReactComponent as Logo } from "./logo.svg";
@@ -24,7 +25,8 @@ function App() {
             </p>
             <Layout />
             <Logo /> */} 
-            <Genitore/>
+            {/* <Genitore/> */}
+            <StampaArray/>
         </div>
     );
 }
