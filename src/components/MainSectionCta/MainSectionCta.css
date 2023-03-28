@@ -1,0 +1,9 @@
+/* section cta */
+#cta{
+    background-color: #F0F0F0;
+    padding: 2rem 6.25rem;
+}
+
+#cta h2, #cta h3{
+    text-align: left;
+}

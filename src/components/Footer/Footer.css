@@ -1,0 +1,46 @@
+/* footer */
+footer{
+    background-color: #1D1B1F;
+    color: #ffffff;
+    padding: 2rem 6.25rem;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+footer > div > #title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer h5{
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+}
+
+footer ul > li{
+    padding-bottom: 1.5rem;
+    color: #D3D0D6;
+}
+
+footer > div > div{
+    display: flex;
+    gap: 2rem;
+}
+
+footer hr{
+    border: 1px solid #FBFAFC;
+}
+
+.fa-brands {
+    font-size: 1.5625rem;
+}

@@ -1,0 +1,11 @@
+button {
+    font-family: inherit;
+    border: 1px solid var(--dark-gray);
+    border-radius: 4px;
+    background: #f0f0f0;
+    padding: 1rem 1.25rem;
+    box-shadow: 4px 4px 0px #1d1b1f;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
