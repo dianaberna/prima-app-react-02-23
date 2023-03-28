@@ -1,4 +1,5 @@
 // import Layout from '../Layout/Layout';
+import Genitore from "../Genitore/Genitore";
 import Layout from "../Layout";
 // import NomeComponente from "percorso dove si trova il file NomeComponente.jsx"
 import "./App.css";
@@ -17,12 +18,13 @@ function App() {
 
     return (
         <div className="App">
-            <p>
+            {/* <p>
                 Sono nel componente App {numero - 6} - {6} - {stringa} -{" "}
                 {risultato} - {stringaNuova}
             </p>
             <Layout />
-            <Logo />
+            <Logo /> */} 
+            <Genitore/>
         </div>
     );
 }

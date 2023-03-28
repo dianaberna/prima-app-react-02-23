@@ -9,3 +9,11 @@ button {
     align-items: center;
     gap: 0.5rem;
 }
+
+button.red{
+    background-color: red;
+}
+
+button.green{
+    background-color: green;
+}

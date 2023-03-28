@@ -11,7 +11,7 @@ function MainSectionCta() {
             <img src={miafoto} alt=""/>
 
             <img src="/assets/foto2.png" alt="" />
-            <Button/>
+            <Button pippo="pippo" testo="sono il pulsante di mainsectioncta"/>
                 {/* <svg
                     width="14"
                     height="14"

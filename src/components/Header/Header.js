@@ -9,9 +9,9 @@ function Header() {
             <header>
                 <h1>Basic landing page for big dream</h1>
                 <p className="subtitle">Minimal, responsive and accessible</p>
-                <Button />
+                <Button testo="sono il testo del pulsante" classecss="red"/>
                 <Button>
-                    <p>questo testo viene ignorato</p>
+                    <p>voglio utilizzare questo testo</p>
                 </Button>
             </header>
         </>

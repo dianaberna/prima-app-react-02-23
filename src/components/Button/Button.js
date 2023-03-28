@@ -1,7 +1,16 @@
 import "./Button.css"
 
-function Button() {
-    return <button>Explore repo</button>;
+/* argomenti -> props -> proprietà */
+function Button({testo, pippo, classecss, children}) {
+    console.log(children)
+
+    let stampa
+    if(testo){
+        stampa = testo
+    }else{
+        stampa = children
+    }
+    return <button id={pippo} className={classecss}>{stampa}</button>;
 }
 
 export default Button;
