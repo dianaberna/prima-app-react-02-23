@@ -18,7 +18,6 @@ function App() {
         <div className="App">
           <p>Sono nel componente App {numero-6} - {6} - {stringa} - {risultato} - {stringaNuova}</p>
           <Layout />
-
         </div>
     );
 }

@@ -1,0 +1,43 @@
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    top: 0;
+    
+    position: fixed;
+    width: calc(100% - 100px);
+   
+    background-color: white;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+    gap: 3rem;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav > div.hamburger {
+
+}
+
+nav > div.hamburger > span{
+    height: .25rem;
+    width: 2rem;
+    background-color: black;
+    display: block;
+    margin-bottom: .25rem;
+}
