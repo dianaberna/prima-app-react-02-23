@@ -10,7 +10,7 @@ function Button({testo, pippo, classecss, children}) {
     }else{
         stampa = children
     }
-    return <button id={pippo} className={classecss}>{stampa}</button>;
+    return <button id={pippo} className={"btn "+classecss}>{stampa}</button>;
 }
 
 export default Button;

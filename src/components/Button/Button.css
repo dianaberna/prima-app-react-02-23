@@ -1,4 +1,4 @@
-button {
+button.btn {
     font-family: inherit;
     border: 1px solid var(--dark-gray);
     border-radius: 4px;
