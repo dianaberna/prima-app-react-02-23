@@ -30,6 +30,11 @@ function Navbar() {
 
 /*
 
+
+function Navbar(){
+    return <p>navbar</p>;
+}
+
 let Navbar = () => {
     return <p>navbar</p>;
 };

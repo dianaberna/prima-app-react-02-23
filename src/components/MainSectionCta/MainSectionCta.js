@@ -1,11 +1,16 @@
 import Button from "../Button";
 import "./MainSectionCta.css"
+import miafoto from "./foto.png"
 
 function MainSectionCta() {
     return (
         <section id="cta">
             <h2>Create the perfect landing page in minutes!</h2>
             <h3>MyPage used around the world</h3>
+            <img  alt="" style={{ backgroundImage: miafoto }}/>
+            <img src={miafoto} alt=""/>
+
+            <img src="/assets/foto2.png" alt="" />
             <Button/>
                 {/* <svg
                     width="14"
