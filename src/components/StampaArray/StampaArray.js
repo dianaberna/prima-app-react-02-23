@@ -48,7 +48,7 @@ function StampaArray() {
             ))}
 
             {/* seconda strategia */}
-            {arrayOggetti.map((elemento, indice) => <StampaPost contenuto={elemento}/>)}
+            {arrayOggetti.map((elemento, indice) => <StampaPost contenuto={elemento} key={indice}/>)}
 
         </div>
     );

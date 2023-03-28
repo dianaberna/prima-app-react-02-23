@@ -25,8 +25,8 @@ function App() {
             </p>
             <Layout />
             <Logo /> */} 
-            {/* <Genitore/> */}
-            <StampaArray/>
+            <Genitore/>
+            {/* <StampaArray/> */}
         </div>
     );
 }
