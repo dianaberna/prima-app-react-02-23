@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prima-app-react-02-23/static/css/main.2dc744ac.css",
+    "main.js": "/prima-app-react-02-23/static/js/main.0d5d57a4.js",
+    "static/media/foto.png": "/prima-app-react-02-23/static/media/foto.81d11ed90e1f98c5be0e.png",
+    "static/media/logo.svg": "/prima-app-react-02-23/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/prima-app-react-02-23/index.html",
+    "main.2dc744ac.css.map": "/prima-app-react-02-23/static/css/main.2dc744ac.css.map",
+    "main.0d5d57a4.js.map": "/prima-app-react-02-23/static/js/main.0d5d57a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc744ac.css",
+    "static/js/main.0d5d57a4.js"
+  ]
+}
