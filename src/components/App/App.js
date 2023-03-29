@@ -2,6 +2,7 @@
 import Contatore from "../Contatore";
 import Genitore from "../Genitore/Genitore";
 import Layout from "../Layout";
+import Shop from "../Shop";
 import StampaArray from "../StampaArray";
 import ToDo from "../ToDo/ToDo";
 import ToDoListCompleto from "../ToDoListCompleto";
@@ -31,10 +32,11 @@ function App() {
             {/* <Genitore/> */}
             {/* <StampaArray/> */}
             <hr/>
-            <ToDoListCompleto/>
+           {/*  <ToDoListCompleto/> */}
             <hr/>
             {/* <Contatore/> */}
-            <ToDo/>
+            {/* <ToDo/> */}
+            <Shop/>
         </div>
     );
 }
