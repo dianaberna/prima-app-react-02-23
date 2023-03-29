@@ -1,4 +1,5 @@
 // import Layout from '../Layout/Layout';
+import Contatore from "../Contatore";
 import Genitore from "../Genitore/Genitore";
 import Layout from "../Layout";
 import StampaArray from "../StampaArray";
@@ -29,6 +30,7 @@ function App() {
             {/* <Genitore/> */}
             {/* <StampaArray/> */}
             <ToDoList/>
+            <Contatore/>
         </div>
     );
 }
