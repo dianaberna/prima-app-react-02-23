@@ -3,7 +3,8 @@ import Contatore from "../Contatore";
 import Genitore from "../Genitore/Genitore";
 import Layout from "../Layout";
 import StampaArray from "../StampaArray";
-import ToDoList from "../ToDoList/ToDoList";
+import ToDo from "../ToDo/ToDo";
+import ToDoListCompleto from "../ToDoListCompleto";
 // import NomeComponente from "percorso dove si trova il file NomeComponente.jsx"
 import "./App.css";
 import { ReactComponent as Logo } from "./logo.svg";
@@ -29,8 +30,11 @@ function App() {
             <Logo /> */} 
             {/* <Genitore/> */}
             {/* <StampaArray/> */}
-            <ToDoList/>
-            <Contatore/>
+            <hr/>
+            <ToDoListCompleto/>
+            <hr/>
+            {/* <Contatore/> */}
+            <ToDo/>
         </div>
     );
 }

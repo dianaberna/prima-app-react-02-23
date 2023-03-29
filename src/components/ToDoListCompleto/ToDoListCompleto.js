@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-function ToDoList() {
+function ToDoListCompleto() {
     // tasks è una variabile/array statico
-    //let tasks = ["primo task", "secondo task", "terzo task"];
+    /* let tasks = ["primo task", "secondo task", "terzo task"]; */
 
     // let tasksReattivo -> ad ogni cambiamento della sua struttura ricarica il pezzetto di html dove viene stampato
     
@@ -36,7 +36,7 @@ function ToDoList() {
         //let input = document.getElementsByTagName("input")[0];
     
         /* console.log(input.value);
-        tasks.push(input.value); */
+        tasks.push(input.value);   */
         // ul.appendchild(nuovo li con dentro input.value)
         //console.log(tasks);
 
@@ -76,15 +76,15 @@ function ToDoList() {
     };
 
     let handleChange = (e) => {
-        console.log(e.target.value)
-        setElemento(e.target.value)
+         console.log(e.target.value)
+         setElemento(e.target.value)
     }
 
     return (
         <>
-            <h1>ToDoList</h1>
+            <h1>ToDoListCompleto</h1>
             {/* il value prende elemento se esiste altrimenti (grazie a ||) prende una stringa vuota */}
-            <input value={elemento || ""} type="text" onChange={(e) => handleChange(e)} />
+            <input type="text" onChange={(e) => handleChange(e)} value={elemento}/>
             <button onClick={() => handleClick()}>Aggiungi task</button>
             
             <p>Numero task: {lista.length}</p>
@@ -100,7 +100,7 @@ function ToDoList() {
     );
 }
 
-export default ToDoList;
+export default ToDoListCompleto;
 
 /*
 ToDoList è formata da 
